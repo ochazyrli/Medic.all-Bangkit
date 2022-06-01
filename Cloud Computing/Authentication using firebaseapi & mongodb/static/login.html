@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+		<title>Login</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="center">
+				<h1>Login</h1>
+				<form id="login">
+					<div class="txt_field">
+						<input type="text" autocomplete="off" id="Email" name="Email" required />
+						<span></span>
+						<label>Email</label>
+					</div>
+					<div class="txt_field">
+						<input type="password" autocomplete="off" id="passwords" name="passwords" required/>
+						<span></span>
+						<label>Password</label>
+					</div>
+					<div class="pass">
+						<a href="change-password.html">Forget Password</a></div>
+					<input type="submit" value="Login" />
+					<div class="signup_link">
+						Not a Member <a href="register.html">Sign Up</a>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<script>
+			const form = document.getElementById('login')
+			form.addEventListener('submit', login)
+
+			async function login(event) {
+				event.preventDefault()
+				const Email = document.getElementById('Email').value
+				const passwords = document.getElementById('passwords').value
+
+				const result = await fetch('/api/login', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify({
+						Email,
+						passwords
+					})
+				}).then((res) => res.json())
+
+				if (result.status === 'ok') {
+					console.log('Got the token: ', result.data)
+					localStorage.setItem('token', result.data)
+					alert('Success')
+				} else {
+					alert(result.error)
+				}
+			}
+		</script>
+	</body>
+</html>

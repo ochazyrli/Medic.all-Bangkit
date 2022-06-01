@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css">
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="center">
+				<h1>Change Password</h1>
+				<form id="reg-form">
+					<div class="txt_field">
+						<input type="text" autocomplete="off" id="username" name="Username" required/>
+						<span></span>
+						<label>Username</label>
+					</div>
+					<div class="txt_field">
+						<input type="password" autocomplete="off" id="password" name="Password" required/>
+						<span></span>
+						<label>Password</label>
+					</div>
+					<div class="txt_field">
+						<input type="password" autocomplete="off" id="newpass" name="New Password" required />
+						<span></span>
+						<label>New Password</label>
+					</div>
+					<input type="submit" value="Submit"/>
+					<div class="signup_link">
+						Already have an account <a href="login.html">Sign In</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<script>
+			const form = document.getElementById('reg-form')
+			form.addEventListener('submit', cpass)
+
+			async function cpass(event) {
+				event.preventDefault()
+				const username = document.getElementById('username').value
+				const password = document.getElementById('password').value
+				const newpass = document.getElementById('newpass').value
+				const result = await fetch('/api/change-pass', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify({
+						username,
+						password,
+						newpass
+					})
+				}).then((res) => res.json())
+
+				if (result.status === 'ok') {
+					// everythign went fine
+					alert('Password Change Sucessfully')
+				} else {
+					alert(result.error)
+				}
+			}
+		</script>
+	</body>
+</html>
