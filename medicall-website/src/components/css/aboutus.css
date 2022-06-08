@@ -1,0 +1,132 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.spad {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-xl-9,
+.col-lg-10,
+.col-lg-6,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-xl-9 {
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-lg-10 {
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+.col-sm-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.col-lg-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.aboutus-page-text .section-title {
+  margin-left: 120px;
+  border: 5px #59eddb dashed;
+}
+
+.about-us h4 {
+  text-align: center;
+}
+
+.section-title p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #75a1e3;
+}
+
+.about-quality h4 {
+  margin-bottom: 25px;
+}
+
+.about-quality p {
+  margin-bottom: 25px;
+}
+
+.aboutus-section {
+  background: #001433;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.aboutus-page-text .section-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.aboutus-page-text img {
+  margin-bottom: 54px;
+}
+
+.aboutus-page-text .about-us h4 {
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.aboutus-page-text .about-us p {
+  color: #ffffff;
+  line-height: 26px;
+}
+
+.aboutus-page-text .about-quality h4 {
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.aboutus-page-text .about-quality p {
+  color: #ffffff;
+  line-height: 22px;
+}
+
+.aboutus-page-text .about-quality ul li {
+  list-style: none;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.aboutus-page-text .about-quality ul li i {
+  color: #2eb82e;
+  display: inline-block;
+  margin-right: 10px;
+}
