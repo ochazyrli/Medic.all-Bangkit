@@ -11,4 +11,11 @@
     <string name="login_failed">"Login failed"</string>
     <string name="login">Login</string>
     <string name="register">Register here</string>
+    <string name="border">__________________________________________________</string>
+    <string name="regisButton">REGISTER</string>
+    <string name="btnLogin">Login here</string>
+    <string name="medicall">Medic.all</string>
+    <string name="sign_out">Keluar</string>
+    <string name="email_error_message">Format email salah</string>
+    <string name="password_error_message">Password harus lebih dari 6 karakter</string>
 </resources>

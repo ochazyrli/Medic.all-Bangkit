@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "1006325468737",
+    "firebase_url": "https://medicall-firebase-default-rtdb.firebaseio.com",
+    "project_id": "medicall-firebase",
+    "storage_bucket": "medicall-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006325468737:android:99cd8265f8b78867f140c0",
+        "android_client_info": {
+          "package_name": "com.bangkit.c22ps219.medicall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006325468737-7ujc662qd5p7et1td5qi9qbojh2b30b6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bangkit.c22ps219.medicall",
+            "certificate_hash": "eaed819a6cdf865064dbb4ee62d07d0e882da72f"
+          }
+        },
+        {
+          "client_id": "1006325468737-gc6ukr6r25u1c0npqttfi6t5m22gtsvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgifLlmFmXEm-vVTWRrwRsoTXgNRCLduA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006325468737-gc6ukr6r25u1c0npqttfi6t5m22gtsvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006325468737:android:d3e9938256122666f140c0",
+        "android_client_info": {
+          "package_name": "com.dicoding.myfirebasechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006325468737-j69s04h91u37urq7jo5e8qju12g6voi0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dicoding.myfirebasechat",
+            "certificate_hash": "eaed819a6cdf865064dbb4ee62d07d0e882da72f"
+          }
+        },
+        {
+          "client_id": "1006325468737-gc6ukr6r25u1c0npqttfi6t5m22gtsvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgifLlmFmXEm-vVTWRrwRsoTXgNRCLduA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006325468737-gc6ukr6r25u1c0npqttfi6t5m22gtsvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

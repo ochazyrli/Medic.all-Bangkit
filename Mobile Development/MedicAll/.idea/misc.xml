@@ -4,12 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Bangkit/MedicAll/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Kuliah/S5/Praktikum Web/tubes-pw-ayang/Medic.all-Bangkit/Mobile Development/MedicAll/app/src/main/res/drawable/ic_baseline_email_white.xml" value="0.1015" />
         <entry key="..\:/Kuliah/S5/Praktikum Web/tubes-pw-ayang/Medic.all-Bangkit/Mobile Development/MedicAll/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1606425702811245" />
         <entry key="..\:/Kuliah/S5/Praktikum Web/tubes-pw-ayang/Medic.all-Bangkit/Mobile Development/MedicAll/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1721311475409836" />
         <entry key="..\:/Kuliah/S5/Praktikum Web/tubes-pw-ayang/Medic.all-Bangkit/Mobile Development/MedicAll/app/src/main/res/layout/activity_chat.xml" value="0.22826086956521738" />
-        <entry key="..\:/Kuliah/S5/Praktikum Web/tubes-pw-ayang/Medic.all-Bangkit/Mobile Development/MedicAll/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Kuliah/S5/Praktikum Web/tubes-pw-ayang/Medic.all-Bangkit/Mobile Development/MedicAll/app/src/main/res/layout/activity_login.xml" value="0.176" />
         <entry key="..\:/Kuliah/S5/Praktikum Web/tubes-pw-ayang/Medic.all-Bangkit/Mobile Development/MedicAll/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/Kuliah/S5/Praktikum Web/tubes-pw-ayang/Medic.all-Bangkit/Mobile Development/MedicAll/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Kuliah/S5/Praktikum Web/tubes-pw-ayang/Medic.all-Bangkit/Mobile Development/MedicAll/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Kuliah/S5/Praktikum Web/tubes-pw-ayang/Medic.all-Bangkit/Mobile Development/MedicAll/app/src/main/res/layout/activity_splash.xml" value="0.176" />
+        <entry key="..\:/Kuliah/S5/Praktikum Web/tubes-pw-ayang/Medic.all-Bangkit/Mobile Development/MedicAll/app/src/main/res/menu/main_menu.xml" value="0.12760416666666666" />
       </map>
     </option>
   </component>
