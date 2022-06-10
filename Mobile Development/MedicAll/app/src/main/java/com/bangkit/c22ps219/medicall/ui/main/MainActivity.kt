@@ -20,6 +20,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import android.app.AlertDialog.Builder
+import com.bangkit.c22ps219.medicall.ui.maps.MapsFragment2
 
 
 class MainActivity : AppCompatActivity() {
@@ -33,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val homeFragment = HomeFragment()
-        val mapsFragment = MapsFragment()
+        val mapsFragment = MapsFragment2()
         val scanFragment = ScanFragment()
         val chatFragment = ChatFragment()
 
@@ -90,9 +91,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun showPopup() {
         val alert: AlertDialog.Builder = Builder(this@MainActivity)
-        alert.setMessage("Are you sure?")
+        alert.setMessage("Apakah anda mau keluar?")
             .setPositiveButton("Logout", DialogInterface.OnClickListener { dialog, which ->
-                signOut() // Last step. Logout function
+                signOut()
             }).setNegativeButton("Cancel", null)
         val alert1: AlertDialog = alert.create()
         alert1.show()
