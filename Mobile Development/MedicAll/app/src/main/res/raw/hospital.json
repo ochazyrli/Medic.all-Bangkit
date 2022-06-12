@@ -1,0 +1,212 @@
+[
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : -7.022023000000001,
+        "lng" : 107.6700243
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : -7.020704969708499,
+          "lng" : 107.6713792302915
+        },
+        "southwest" : {
+          "lat" : -7.023402930291503,
+          "lng" : 107.6686812697085
+        }
+      }
+    },
+    "name" : "Rey",
+    "rating": 4.2,
+    "vicinity" : "XMHC+52R, Wargamekar"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : -7.0232221,
+        "lng" : 107.6647039
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : -7.021871169708498,
+          "lng" : 107.6660574302915
+        },
+        "southwest" : {
+          "lat" : -7.024569130291503,
+          "lng" : 107.6633594697085
+        }
+      }
+    },
+    "name" : "Klinik And Baby Spa Bintari Medika",
+    "rating": 4.5,
+    "vicinity" : "XMG7+PV8, Jelekong"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : -7.023831599999999,
+        "lng" : 107.6646685
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : -7.022449219708498,
+          "lng" : 107.6660091302915
+        },
+        "southwest" : {
+          "lat" : -7.025147180291502,
+          "lng" : 107.6633111697085
+        }
+      }
+    },
+    "name" : "Klinik Bintari Medika",
+    "rating": 4,
+    "vicinity" : "Jalan Raya Laswi No.204, Jelekong"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : -7.0070833,
+        "lng" : 107.662144
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : -7.005728919708497,
+          "lng" : 107.6634418302915
+        },
+        "southwest" : {
+          "lat" : -7.008426880291501,
+          "lng" : 107.6607438697085
+        }
+      }
+    },
+    "name" : "Therapy Matras Panas Batu Germanium Happy Dream",
+    "rating": 4.1,
+    "vicinity" : "Bumi Sari Indah II No.36, Jelekong"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : -7.0066644,
+        "lng" : 107.662555
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : -7.005335919708498,
+          "lng" : 107.6638984302915
+        },
+        "southwest" : {
+          "lat" : -7.008033880291503,
+          "lng" : 107.6612004697085
+        }
+      }
+    },
+    "name" : "RB Merlina Sahwi",
+    "rating": 4.7,
+    "vicinity" : "Bumi Sari Indah III No.2, Jelekong"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : -7.0154511,
+        "lng" : 107.6386717
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : -7.014205169708498,
+          "lng" : 107.6399737802915
+        },
+        "southwest" : {
+          "lat" : -7.016903130291502,
+          "lng" : 107.6372758197085
+        }
+      }
+    },
+    "name" : "SAKA HOLISTIC",
+    "rating": 4.5,
+    "vicinity" : "XJMQ+RF7, Cipicung BaleEndah, Manggahang"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : -7.010087899999999,
+        "lng" : 107.6402095
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : -7.008802669708498,
+          "lng" : 107.6415286802915
+        },
+        "southwest" : {
+          "lat" : -7.011500630291502,
+          "lng" : 107.6388307197085
+        }
+      }
+    },
+    "name" : "Nayaka Era husada klinik",
+    "rating": 4.8,
+    "vicinity" : "Jalan Siliwangi No.99, Manggahang"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : -7.036079900000001,
+        "lng" : 107.7120924
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : -7.034720769708498,
+          "lng" : 107.7134433302915
+        },
+        "southwest" : {
+          "lat" : -7.037418730291503,
+          "lng" : 107.7107453697085
+        }
+      }
+    },
+    "name" : "Balai Pengobatan Umum Yayasan Bhakti Siliwangi V",
+    "rating": 4.4,
+    "vicinity" : "Jalan Paledang No.6-2, Pakutandang"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : -7.0069603,
+        "lng" : 107.7179545
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : -7.005610969708497,
+          "lng" : 107.7193042302915
+        },
+        "southwest" : {
+          "lat" : -7.008308930291501,
+          "lng" : 107.7166062697085
+        }
+      }
+    },
+    "name" : "Rumah Sakit Paramita",
+    "rating": 4.8,
+    "vicinity" : "XPV9+658, Jalan Sumbersari, Sumbersari"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : -6.9934465,
+        "lng" : 107.6392749
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : -6.992102669708498,
+          "lng" : 107.6406228802915
+        },
+        "southwest" : {
+          "lat" : -6.994800630291502,
+          "lng" : 107.6379249197085
+        }
+      }
+    },
+    "name" : "BPM SHELLY FITRIA",
+    "rating": 4.2,
+    "vicinity" : "Jl kp, Jalan Cijagra No.39, RT.03/RW.02, Bojongsari"
+  }
+]

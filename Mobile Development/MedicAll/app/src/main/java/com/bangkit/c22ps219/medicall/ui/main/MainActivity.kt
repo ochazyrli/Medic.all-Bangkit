@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val homeFragment = HomeFragment()
-        val mapsFragment = MapsFragment2()
+        val mapsFragment = MapsFragment()
         val scanFragment = ScanFragment()
         val chatFragment = ChatFragment()
 

@@ -30,5 +30,8 @@
     <string name="wback">"Welcome,"</string>
     <string name="username">username</string>
     <string name="logout">Keluar</string>
+    <string name="konsultasi">Konsultasi</string>
+    <string name="obat">Obat</string>
+    <string name="penggunaan">Penggunaan</string>
 
 </resources>
