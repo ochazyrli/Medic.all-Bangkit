@@ -22,6 +22,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_scan_fragment">scan</string>
 
+    <!-- Chat Firebase -->
+    <string name="send_success">Berhasil terkirim</string>
+    <string name="send_error">Gagal terkirim</string>
+
     <!-- Bottom Nav -->
     <string name="home">Home</string>
     <string name="maps">Maps</string>

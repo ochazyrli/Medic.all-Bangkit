@@ -20,6 +20,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import android.app.AlertDialog.Builder
+import com.bangkit.c22ps219.medicall.mechat.ChatActivity
 import com.bangkit.c22ps219.medicall.ui.maps.MapsFragment2
 
 
@@ -45,8 +46,10 @@ class MainActivity : AppCompatActivity() {
                 R.id.home ->setCurrentFragment(homeFragment)
                 R.id.location ->setCurrentFragment(mapsFragment)
                 R.id.scan ->setCurrentFragment(scanFragment)
-                R.id.chat ->setCurrentFragment(chatFragment)
-
+                R.id.chat ->{
+                    chatApp()
+                    true
+                }
             }
             true
         }
@@ -143,4 +146,9 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, LoginActivity::class.java))
         finish()
     }
+
+    private fun chatApp() {
+        startActivity(Intent(this, ChatActivity::class.java))
+    }
+
 }
