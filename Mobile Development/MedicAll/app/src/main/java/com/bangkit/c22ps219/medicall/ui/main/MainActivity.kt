@@ -22,6 +22,7 @@ import com.google.firebase.ktx.Firebase
 import android.app.AlertDialog.Builder
 import com.bangkit.c22ps219.medicall.mechat.ChatActivity
 import com.bangkit.c22ps219.medicall.ui.maps.MapsFragment2
+import com.bangkit.c22ps219.medicall.ui.scan.ScanActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -45,7 +46,10 @@ class MainActivity : AppCompatActivity() {
             when(it.itemId){
                 R.id.home ->setCurrentFragment(homeFragment)
                 R.id.location ->setCurrentFragment(mapsFragment)
-                R.id.scan ->setCurrentFragment(scanFragment)
+                R.id.scan ->{
+                    scanApp()
+                    true
+                }
                 R.id.chat ->{
                     chatApp()
                     true
@@ -149,6 +153,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun chatApp() {
         startActivity(Intent(this, ChatActivity::class.java))
+    }
+
+    private fun scanApp() {
+        startActivity(Intent(this, ScanActivity::class.java))
     }
 
 }

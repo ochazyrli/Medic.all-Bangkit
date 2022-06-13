@@ -38,4 +38,8 @@
     <string name="obat">Obat</string>
     <string name="penggunaan">Penggunaan</string>
 
+    <string name="tv_take_photo">Take photo</string>
+    <string name="tv_description">Select a preset image or take a new photo</string>
+    <string name="tv_placeholder">Object detection demo</string>
+
 </resources>
